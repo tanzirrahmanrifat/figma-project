@@ -1,0 +1,243 @@
+/* common style  */
+body{
+    font-family: 'Jost', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+background-color: #F8F8F8;
+}
+
+h1{
+    font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+}
+/* moto start here  */
+#moto{
+    background-color: #B5B35C;
+    border: 1px solid #000000;
+}
+/* moto end here  */
+
+/* header start here  */
+header form input {
+    align-items: center;
+padding: 8px 8px 8px 16px;
+gap: 24px;
+
+width: 351px;
+height: 40px;
+
+border: 1px solid #000000;
+border-radius: 4px;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+    outline-offset: 0px;
+}
+[type=search] {
+    outline-offset: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.border-1 {
+
+    border: 1px solid;
+    border-radius: 4px;
+}
+#search:focus {
+    outline: none;
+  }
+/* header end here  */
+/* banner start here  */
+.banner{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.banner-wrapper .row > * {
+    padding-right: 0;
+    padding-left: 0;}
+
+.banner-left img{
+    width: 100%;
+}
+.banner-right{
+    background-color: #F2E085;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.banner-right h1{
+    font-weight: 700;
+font-size: 72px;
+line-height: 83px;
+}
+.banner-right p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.banner-right img {
+    padding-top: 250px;
+}
+.button-btn {
+    appearance: button;
+    background-color: #B5B35C;
+    border: 1px solid #000;
+    box-shadow: #B5B35C 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 5px 250px 0;
+    overflow: visible;
+    padding: 14px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-btn:focus {
+    text-decoration: none;
+  }
+  
+  .button-btn:hover {
+    text-decoration: none;
+  }
+  
+  .button-btn:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-btn:not([disabled]):active {
+    box-shadow: #B5B35C 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-btn {
+      padding: 12px btnpx;
+    }
+  }
+
+  .position-absolute{
+    background-image: url(/img/banner/Flower.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+width: 212px;
+height: 235px;
+left: 614px;
+top: 541px;
+  }
+
+  .position-absolute h3{
+    font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+
+text-align: center;
+
+
+color: #F2E085;
+  }
+
+  .chimmi{
+    position: absolute;
+    overflow: hidden;
+width: 186px;
+height: 186px;
+left: 1185px;
+top: 768px;
+  }
+/* banner end here  */
+
+/* about start here  */
+.about{
+    background-color: #BFEAFF;
+}
+.about-wrapper{
+    margin: 0 60px;
+}
+/* about end here  */
+
+/* arrivals start here  */
+.arrivals a h3{
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+
+text-align: center;
+
+
+color: #000000;
+}
+.arrivals a p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #B5B35C;
+    
+}
+
+/* arrivals start end  */
+
+/* t-shirt start here  */
+.t-shirt{
+    background-color: #5E6B61;
+}
+/* t-shirt end here  */
+
+/* hair start here  */
+/* hair end here  */
+
+
+/* jewelry start here  */
+.jewelry{
+    background-color: #BD6059;
+}
+/* jewelry end here  */
+
+/* newsletter start here  */
+.newsletter{
+    padding: 60px 0;
+    background-color: #F2E085;
+}
+.newsletter .left img{
+    position: absolute;
+    width: 190.47px;
+    height: 129.87px;
+    left: 20px;
+    top: 82px;
+    z-index: 1;
+}
+.newsletter .right{
+    position: absolute;
+    width: 96px;
+    height: 95px;
+    right: 182px;
+    bottom: -23px;
+}
+/* newsletter end here  */
+
+/* footer start here  */
+footer{
+    background-color: #5E6B61;
+}
+/* footer end here  */
