@@ -64,12 +64,10 @@ $(document).ready(function () {
 // slick trusted company slider
 $(document).ready(function () {
     $(".2nd-slider").slick({
+      dots: true,
       slidesToShow: 4,
       slidesToScroll: 1,
-      autoplay: true,
       autoplaySpeed: 4000,
-      prevArrow: true,
-      nextArrow: true,
       responsive: [
         {
           breakpoint: 1024,

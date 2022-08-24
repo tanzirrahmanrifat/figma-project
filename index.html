@@ -52,83 +52,97 @@
         </div>
     </section>
     <!-- moto section end  -->
+ 
 
     <!-- header start here  -->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <!-- logo  -->
-                    <a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo/Wave-CHIMMI.png"
-                            alt="Wave CHIMMI"></a>
-                    <form class="d-flex border-1
-              ">
-                        <input id="search" class="border-0" type="search" placeholder="What can we help you find?"
-                            aria-label="Search">
-                        <button class="btn shadow-none border-0" type="submit"><i
-                                class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">SHOP <i class="fa-solid fa-angle-down"></i></a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Shop All</a></li>
-                                    <li><a class="dropdown-item" href="#">New Arrivals</a></li>
-                                    <li><a class="dropdown-item" href="#">NY Forever x WE ARE CHIMMI</a></li>
-                                    <li><a class="dropdown-item" href="#">T-Shirts</a></li>
-                                    <li><a class="dropdown-item" href="#">Giftables</a></li>
-                                    <li><a class="dropdown-item" href="#">Jewelry</a></li>
-                                    <li><a class="dropdown-item" href="#">Phone Accessories</a></li>
-                                    <li><a class="dropdown-item" href="#">Hair Claws</a></li>
-                                    <li><a class="dropdown-item" href="#">Hair Ties</a></li>
-                                    <li><a class="dropdown-item" href="#">Headbands</a></li>
-                                    <li><a class="dropdown-item" href="#">Hair Clips</a></li>
-                                    <li><a class="dropdown-item" href="#">Hair Pins</a></li>
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav>
+                        <div class="wrapper">
+                                <div class="col-lg-5 d-flex">
+                                    <a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo/Wave-CHIMMI.png"
+                                        alt="Wave CHIMMI"></a>
+                                <form action="#" class="d-flex align-items-center
+                                ">
+                                    <input id="search" class="border-o" type="search" placeholder="What can we help you find?"
+                                        aria-label="Search">
+                                    <button class="text-dark bg-transparent border-0" type="submit"><i
+                                            class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>
+                                </div>
+                            <div class="col-lg-7"><input type="radio" name="slider" id="menu-btn">
+                                <input type="radio" name="slider" id="close-btn">
+                                <ul class="nav-links">
+                                  <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                                  <li><a href="#">HOME</a></li>
+                                  <li>
+                                    <a href="#" class="desktop-item">SHOP<i class="fa-solid fa-chevron-down"></i></a>
+                                    <input type="checkbox" id="showMega">
+                                    <label for="showMega" class="mobile-item">SHOP</label>
+                                    <div class="mega-box">
+                                      <div class="content">
+                                        <div class="c-menu">
+                                          <h5>Design Services</h5>
+                                          <ul class="mega-links">
+                                            <li><a href="#">Graphics</a></li>
+                                            <li><a href="#">Vectors</a></li>
+                                            <li><a href="#">Business cards</a></li>
+                                            <li><a href="#">Custom logo</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="c-menu">
+                                          <h5>Email Services</h5>
+                                          <ul class="mega-links">
+                                            <li><a href="#">Personal Email</a></li>
+                                            <li><a href="#">Business Email</a></li>
+                                            <li><a href="#">Mobile Email</a></li>
+                                            <li><a href="#">Web Marketing</a></li>
+                                          </ul>
+                                        </div>
+                                        <div class="c-menu">
+                                          <h5>Security services</h5>
+                                          <ul class="mega-links">
+                                            <li><a href="#">Site Seal</a></li>
+                                            <li><a href="#">VPS Hosting</a></li>
+                                            <li><a href="#">Privacy Seal</a></li>
+                                            <li><a href="#">Website design</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </li>
+                                  <li><a href="#">ABOUT US</a></li>
+                                  <li><a href="#">STORIES</a></li>
+                                  <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                                  <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">STORIES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                              </div>
+                            </nav>
                 </div>
-            </nav>
+                </div>
+                  
+                </div>
         </div>
+        
     </header>
     <!-- header end here  -->
 
     <!-- banner start here  -->
-    <!-- <section class="banner">
+    <section class="banner">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="banner-wrapper">
                         <div class="row justify-content-center">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 p-0">
                                 <div class="banner-left">
                                     <img src="img/banner/Image (1).png" alt="Banner Image" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 position-relative p-0">
                                 <div class="banner-right text-center">
                                     <img src="img/banner/Heavy Waves.png" alt="Waves" class="img-fluid">
                                     <h1>LOUD & PROUD</h1>
@@ -138,7 +152,7 @@
 
 
                                 </div>
-                                <div class="chimmi">
+                                <div class="chimmi position-absolute">
                                     <img src="img/banner/chimmiAsset 1 1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
@@ -147,7 +161,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- banner end here  -->
 
     <!-- section join start  -->
@@ -169,7 +183,7 @@
                                         backgrounds. We are an accessories brand that donates 10% of profits from sales
                                         to organizations that support immigrant and marginalized communities. Learn more
                                         about us</p>
-                                    <button type="button">Learn More</button>
+                                    <button type="button">Learn More<i class="fa-solid fa-arrow-right-long"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -291,32 +305,32 @@
 
                         <div class="2nd-slider">
 
-                            <a href="#" class="text-decoration-none text-center">
+                            <a href="#" class="text-decoration-none text-center c-design">
                                 <img src="img/t-shirt/Rectangle 10.png" alt="" class="img-fluid">
                                 <h3>NY FOREVER X WE ARE CHIMMI T-SHIRT</h3>
                                 <p>$42.00</p>
                             </a>
-                            <a href="#" class="text-decoration-none text-center">
+                            <a href="#" class="text-decoration-none text-center c-design">
                                 <img src="img/t-shirt/Rectangle 12.png" alt="" class="img-fluid">
                                 <h3>CHILDREN OF IMMIGRANTS T-SHIRT - SAND</h3>
                                 <p>$28.00</p>
                             </a>
-                            <a href="#" class="text-decoration-none text-center">
+                            <a href="#" class="text-decoration-none text-center c-design">
                                 <img src="img/t-shirt/Rectangle 13.png" alt="" class="img-fluid">
                                 <h3>CHILDREN OF IMMIGRANTS T-SHIRT - OLIVE</h3>
                                 <p>$28.00</p>
                             </a>
-                            <a href="#" class="text-decoration-none text-center">
+                            <a href="#" class="text-decoration-none text-center c-design">
                                 <img src="img/t-shirt/Rectangle 12.png" alt="" class="img-fluid">
                                 <h3>STUDIO JUNGIN INCENSE PLATE</h3>
                                 <p>$56.00</p>
                             </a>
-                            <a href="#" class="text-decoration-none text-center">
+                            <a href="#" class="text-decoration-none text-center c-design">
                                 <img src="img/t-shirt/Rectangle 13.png" alt="" class="img-fluid">
                                 <h3>STUDIO JUNGIN INCENSE PLATE</h3>
                                 <p>$56.00</p>
                             </a>
-                            <a href="#" class="text-decoration-none text-center">
+                            <a href="#" class="text-decoration-none text-center c-design">
                                 <img src="img//t-shirt/Rectangle 10.png" alt="" class="img-fluid">
                                 <h3>STUDIO JUNGIN INCENSE PLATE</h3>
                                 <p>$56.00</p>
@@ -352,7 +366,7 @@
                         <div class="2nd-slider">
 
                             <a href="#" class="text-decoration-none text-center">
-                                <img src="img/hair/Image.svg" alt="" class="img-fluid">
+                                <img src="img/hair/Image (3).png" alt="" class="img-fluid">
                                 <h3>BUTTERFLY SPLATTER CLAW</h3>
                                 <p>$14.00</p>
                             </a>
@@ -377,7 +391,7 @@
                                 <p>$56.00</p>
                             </a>
                             <a href="#" class="text-decoration-none text-center">
-                                <img src="img/hair/Image.svg" alt="" class="img-fluid">
+                                <img src="img/hair/Image (3).png" alt="" class="img-fluid">
                                 <h3>STUDIO JUNGIN INCENSE PLATE</h3>
                                 <p>$56.00</p>
                             </a>
@@ -458,19 +472,19 @@
                 <div class="col-lg-12">
                     <div class="newsletter-wrapper position-relative">
                         <div class="row justify-content-center">
-                            <div class="col-lg-2 left">
+                            <div class="left">
                                 <img src="img/newsletter/Group 15.png" alt="Image" class="img-fluid">
                             </div>
-                            <div class="col-lg-6 text-center">
+                            <div class="col-lg-7 text-center">
                                 <h1>JOIN OUR NEWSLETTER</h1>
-                                <form class="d-flex justify-content-center">
-                                    <input class="form-control w-50" type="search" placeholder="Your email"
+                                <form class="d-flex border-1 w-50 mx-auto">
+                                    <input class="form-control" type="search" placeholder="Your email"
                                         aria-label="Search">
                                     <button class="btn" type="submit"><i
                                             class="fa-solid fa-arrow-right-long"></i></button>
                                 </form>
                             </div>
-                            <div class="col-lg-2 right">
+                            <div class="right">
                                 <img src="img/newsletter/Smile.png" alt="Image" class="img-fluid">
                             </div>
                         </div>
@@ -487,18 +501,41 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-wrapper">
-                        <div class="row">
-                            <div class="col-lg-6">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3">
                                 <div class="footer-left">
-                                    <img src="img/logo/footer.png" alt="">
+                                    <img src="img/logo/footer.png" alt="" class="img-fluid">
 
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><a href="#"><i
+                                    <ul class="list-inline text-center">
+                                        <li class="list-inline-item"><a href="#" class="text-white"><i
                                                     class="fa-brands fa-youtube"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i
+                                        <li class="list-inline-item"><a href="#" class="text-white"><i
                                                     class="fa-brands fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="#"><i
+                                        <li class="list-inline-item"><a href="#" class="text-white"><i
                                                     class="fa-brands fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 offset-3">
+                                <div class="footer-middle text-start">
+                                    <h6>QUICK LINKS</h6>
+                                    <ul class="p-0">
+                                        <li><a href="#" class="text-decoration-none">About Us</a></li>
+                                        <li><a href="#" class="text-decoration-none">Shipping & Returns</a></li>
+                                        <li><a href="#" class="text-decoration-none">Privacy</a></li>
+                                        <li><a href="#" class="text-decoration-none">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="footer-middle text-start">
+                                    <h6>CONTACT US</h6>
+                                    <ul class="p-0">
+                                        <li><a href="tel:9177082232" class="text-decoration-none ">9177082232</a></li>
+                                        <li><a href="#" class="text-decoration-none">hello@wearechimmi.com</a></li>
+                                        <li><a href="#" class="text-decoration-none">PO Box 25003</a></li>
+                                        <li><a href="#" class="text-decoration-none">Brooklyn, NY 11202-5003 United States</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -507,6 +544,10 @@
                 </div>
             </div>
         </div>
+        <hr class="mb-0 text-white">
+                            <div class="col-lg-12 py-3 text-center">
+                                <span class="my-4">&copy; 2022 WE ARE CHIMMI</span>
+                            </div>
     </footer>
     <!-- footer end here  -->
     <!-- js links  -->
